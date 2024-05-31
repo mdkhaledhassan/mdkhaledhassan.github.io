@@ -1,0 +1,79 @@
+<div id="ajax-page" class="ajax-page-content">
+    <div class="ajax-page-wrapper">
+        <div class="ajax-page-nav">
+            <div class="nav-item ajax-page-prev-next">
+                <a class="ajax-page-load" href="portfolio-project-5.html"><i class="lnr lnr-chevron-left"></i></a>
+            </div>
+            <div class="nav-item ajax-page-close-button">
+                <a id="ajax-page-close-button" href="#"><i class="lnr lnr-cross"></i></a>
+            </div>
+        </div>
+
+        <div class="ajax-page-title">
+            <h1>Shopking</h1>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-8 col-md-8 portfolio-block">
+                <div class="owl-carousel portfolio-page-carousel">
+                    <div class="item">
+                        <img src="img/portfolio/project6/shopking.webp" alt="" />
+                    </div>
+                </div>
+
+                <div class="owl-carousel portfolio-page-carousel">
+                    <div class="item">
+                        <img src="img/portfolio/project6/shopking-1.jpeg" alt="" />
+                    </div>
+                </div>
+
+                <script type="text/javascript">
+                    jQuery(document).ready(function($){
+                        $('.portfolio-page-carousel').imagesLoaded(function(){
+                            $('.portfolio-page-carousel').owlCarousel({
+                                smartSpeed:1200,
+                                items: 1,
+                                loop: true,
+                                dots: true,
+                                nav: true,
+                                navText: false,
+                                margin: 10,
+                                autoHeight:true
+                            });
+                        });
+                    });
+                </script>
+            </div>
+
+            <div class="col-sm-4 col-md-4 portfolio-block">
+                <!-- Project Description -->
+                <div class="project-description">
+                    <div class="block-title">
+                        <h3>Description</h3>
+                    </div>
+                    <ul class="project-general-info">
+                        <li><p><i class="fa fa-file-alt"></i> Shopping</p></li>
+                        <li><p><i class="fa fa-globe"></i> <a href="https://play.google.com/store/apps/details?id=com.inilabs.shopking" target="_blank">Playstore</a></p></li>
+                        <li><p><i class="fa fa-calendar"></i> Jan 10, 2024</p></li>
+                    </ul>
+
+                    <p class="text-justify">FoodKing is a cutting-edge food delivery app and restaurant management system designed to support both single and multi-branch restaurants. It comes with a robust POS system, complemented by user-friendly applications, including an app for customers, a website, and an app for delivery personnel. The system boasts a feature-rich admin panel developed with Laravel Framework and Vue, empowering you to efficiently and intelligently manage every aspect of your restaurant operations. Experience accelerated growth and seamless management with FoodKing’s powerful tools at your disposal.</p>
+                    <!-- /Project Description -->
+
+                    <!-- Technology -->
+                    <div class="tags-block">
+                        <div class="block-title">
+                            <h3>Technology</h3>
+                        </div>
+                        <ul class="tags">
+                            <li><a>Dart</a></li>
+                            <li><a>Flutter</a></li>
+                        </ul>
+                    </div>
+                    <!-- /Technology -->
+                </div>
+                <!-- Project Description -->
+            </div>
+        </div>
+    </div>
+</div>
